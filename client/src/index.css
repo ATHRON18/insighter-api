@@ -54,3 +54,6 @@ body{
   background: #208dbf;
   border-radius: 50px;
 }
+p{
+  margin: 0;
+}

@@ -10,6 +10,9 @@
   
   .question {
     font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     cursor: pointer;
     padding: 10px;
     background-color: #4471a3;

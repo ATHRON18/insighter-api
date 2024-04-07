@@ -20,7 +20,7 @@ function ContactUs() {
               <p>Email*</p>
               <input type="email" placeholder='---'/><br />
               <p>What can we help you with?</p>
-              <input type="text" placeholder='---'id='text'/>
+              <textarea  rows="10" placeholder='---' id='text'></textarea>
             </div>
             <button>Submit</button>
           </form>

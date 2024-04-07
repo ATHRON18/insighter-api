@@ -1,6 +1,6 @@
 .contactUS-form{
-    height: 380px;
-    width: 350px;
+    height: 90%;
+    width: 70%;
     /* background-color: rgb(213, 198, 243); */
     background: linear-gradient(to left, #2F3E52, #243b55);
     border: 1px solid black;
@@ -18,10 +18,13 @@
 
 }
 .contactUs-details{
-    font-size: x-large;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .contactUs-details h1{
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 .name{
     display: flex;
@@ -43,7 +46,8 @@
     height: 3rem;
 }
 #text{
-    height: 5rem;
+    width: 100%;
+    resize: none; 
 }
 .contactUS-form button{
     background-color: #429ACA;
@@ -52,7 +56,7 @@
     border: none;
     height: 30px;
     width: 100px;
-    margin-left: 35%;
+    /* margin-left: 35%; */
 }
 .contactUS-form button:hover{
     border: 2.5px solid gold;
